@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 // Write your code here
 import {
   BarChart,
@@ -22,8 +23,10 @@ const VaccinationCoverage = props => {
   return (
     <>
       <h1>Vaccination Coverage</h1>
-      <ResponsiveContainer width="100%" height={500}>
+      <ResponsiveContainer width={1000} height={500}>
         <BarChart
+        width={1000} 
+        height={500}
           data={weekVaccinationList}
           margin={{
             top: 5,
